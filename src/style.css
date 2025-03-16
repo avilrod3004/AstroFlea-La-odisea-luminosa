@@ -48,3 +48,16 @@
     border-right: 3px solid #3498db;
     animation: typing 3s steps(30) 1s forwards;
 }
+
+.imagen {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagen:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transform: rotate(-5deg);  /* Inclinación hacia la izquierda */
+}
+
+.imagen:hover {
+    transform: rotate(5deg);   /* Inclinación hacia la derecha */
+}
