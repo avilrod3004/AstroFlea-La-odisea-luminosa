@@ -5,17 +5,19 @@ Pulgaria, un diminuto pero próspero planeta cubierto de musgo estelar y energí
 Ante la inminente destrucción de su hogar, Lumi, una joven pulga astronauta, decide enfrentarse al peligro. Con su traje espacial y su propulsor a chorro, se embarca en un viaje por las profundidades del océano cósmico, explorando biomas hostiles y esquivando las sombras que acechan en la oscuridad. Su misión: recolectar fragmentos de luz pura y liberar a Abyssion de su corrupción antes de que Pulgaria sea consumida para siempre. ¿Podrá devolver la luz al cosmos o será engullida por la oscuridad?
 
 # Informe contenido multimedia
+## Imágenes utilizadas
 | Nombre          | Tipos de licencia | Formato origianl | Fuente         | Formato de salida | Software de edición |
-|-----------------|-------------------|------------------|----------------|-------------------| --- |
+|-----------------|-------------------|------------------|----------------|-------------------|---------------------|
 | Dibujo Abyssion | CC BY-NC-ND       | AFDESIGN         | Creación propia | WEBP Y PNG        | Affinity Designer 2 |
 | Dibujo Lumi | CC BY-NC-ND       | AFDESIGN         | Creación propia          | WEBP Y PNG        | Affinity Designer 2 |
 | Dibujo escenario | CC BY-NC-ND       | AFDESIGN         | Creación propia         | WEBP Y PNG        | Affinity Designer 2 |
-| Logotipo AstroFlea | CC BY-NC-ND       | AFDESIGN         | Creación propia       | PNG               | Affinity Designer |
+| Logotipo AstroFlea | CC BY-NC-ND       | AFDESIGN         | Creación propia       | PNG               | Affinity Designer 2 |
 
+## Audios y vídeos
 | Nombre | Formato original | Formato de salida | Códec utilizado | Licencia                                          |
 | --- | -- | -- | -- |---------------------------------------------------|
-| Video estrellas | MP4 | MP4 | x264 | Creative Commons Zero (CC0)    |
-| Video planeta | MP4 | MP4 | x264 | Creative Commons Zero (CC0]                                                 |
+| Video estrellas | MP4 | MP4 | H.264 | Creative Commons Zero (CC0)    |
+| Video planeta | MP4 | MP4 | H.264 (High Profile) | Creative Commons Zero (CC0]                                                 |
 | Musica 1 | MP3 | MP3 | MPEG Layer-3 | Creative Commons Zero (CC0) |
 | Música 2 | MP3 | MP3 | MPEG Layer-3 | Creative Commons Zero (CC0) | 
 
