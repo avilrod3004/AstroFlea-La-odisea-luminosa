@@ -4,14 +4,165 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>AstroFlea</title>
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
-    <div id="app">
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
+    <main>
+      <div class="relative h-170 bg-cover bg-center bg-no-repeat">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+          <div class="relative z-10 flex flex-col items-center justify-center h-full text-white px-4">
+              <img src="./assets/logotipo_png.png" alt="AstroFlea: La odisea luminosa">
+              <h1 class="text-4xl md:text-5xl font-bold mb-4 text-center">Una aventura cósmica en las profundidades estelares</h1>
+          </div>
+      </div>
+
+      <div class="container mx-auto px-4 py-8">
+        <!-- Lumi -->
+        <div class="flex flex-col md:flex-row items-center mb-16">
+            <div class="md:w-1/2 md:pr-8 mb-8 md:mb-0">
+                <h2 class="text-3xl font-bold mb-4">Protagonista: Lumi</h2>
+                <p class="text-gray-600 mb-4">Una pulga valiente equipada con un traje espacial y un propulsor a chorro. Curiosa y decidida, lucha por salvar su hogar con ingenio y agilidad.</p>
+
+                <h3 class="text-2xl font-semibold mb-4">Habilidades Estelares</h3>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <div class="w-8 h-8 bg-blue-400 text-white flex items-center justify-center rounded-full mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                            </svg>
+                        </div>
+                        <p><strong>Salto gravitacional:</strong> para esquivar obstáculos.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <div class="w-8 h-8 bg-yellow-400 text-white flex items-center justify-center rounded-full mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <p><strong>Rayo de fotones:</strong> dispara pequeños destellos para activar mecanismos o repeler enemigos pequeños.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <div class="w-8 h-8 bg-green-400 text-white flex items-center justify-center rounded-full mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016zM12 9v2m0 4h.01" />
+                            </svg>
+                        </div>
+                        <p><strong>Escudo de plasma:</strong> protección temporal contra ataques.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <div class="w-8 h-8 bg-red-400 text-white flex items-center justify-center rounded-full mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+                            </svg>
+                        </div>
+                        <p><strong>Impulso estelar:</strong> sprint rápido para escapar de zonas peligrosas.</p>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="md:w-1/2">
+                <picture>
+                    <source srcset="assets/lumi_webp_1080.webp" media="(min-width: 1024px)" type="image/webp">
+                    <source srcset="assets/lumi_webp_720.webp" media="(min-width: 768px)" type="image/webp">
+                    <source srcset="assets/lumi_webp_500.webp" media="(max-width: 767px)" type="image/webp">
+
+                    <source srcset="assets/lumi_png_1080.png" media="(min-width: 1024px)" type="image/png">
+                    <source srcset="assets/lumi_png_720.png" media="(min-width: 768px)" type="image/png">
+                    <source srcset="assets/lumi_png_500.png" media="(max-width: 767px)" type="image/png">
+
+                    <img src="assets/lumi_png_500.png" alt="Protagonista: Lumi" class="w-full h-auto rounded-lg shadow-md">
+                </picture>
+            </div>
+        </div>
+
+        <!-- Abyssion -->
+        <div class="flex flex-col md:flex-row-reverse items-center mb-16">
+            <div class="md:w-1/2 md:pl-8 mb-8 md:mb-0">
+                <h2 class="text-3xl font-bold mb-4">Villano: Abyssion, el pez linterna oscuro</h2>
+                <p class="text-gray-600 mb-4">Un temible pez linterna corrompido por un cristal oscuro, que lo convierte en una criatura agresiva y destructiva. Su enorme cuerpo se desliza por las profundidades espaciales, usando su bioluminiscencia como un arma mortal.</p>
+
+                <h3 class="text-2xl font-semibold mb-4">Habilidades Oscuras</h3>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <div class="w-8 h-8 bg-purple-700 text-white flex items-center justify-center rounded-full mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <p><strong>Hipnosis Luminosa:</strong> Su linterna emite pulsos de luz que atraen a las criaturas cercanas, dejándolas inmóviles por unos segundos.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <div class="w-8 h-8 bg-indigo-800 text-white flex items-center justify-center rounded-full mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <p><strong>Tentáculos de Sombra:</strong> Puede invocar sombras en forma de tentáculos que emergen de la oscuridad y bloquean el camino de Lumi.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <div class="w-8 h-8 bg-gray-900 text-white flex items-center justify-center rounded-full mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" />
+                            </svg>
+                        </div>
+                        <p><strong>Explosión Oscura:</strong> Acumula energía del cristal oscuro y la libera en un potente estallido, dañando todo a su alrededor.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="md:w-1/2">
+                <picture>
+                    <source srcset="assets/asbyssion_webp_1080.webp" media="(min-width: 1024px)" type="image/webp">
+                    <source srcset="assets/asbyssion_webp_720.webp" media="(min-width: 768px)" type="image/webp">
+                    <source srcset="assets/asbyssion_webp_500.webp" media="(max-width: 767px)" type="image/webp">
+
+                    <source srcset="assets/asbyssion_png_1080.png" media="(min-width: 1024px)" type="image/png">
+                    <source srcset="assets/asbyssion_png_720.png" media="(min-width: 768px)" type="image/png">
+                    <source srcset="assets/asbyssion_png_500.png" media="(max-width: 767px)" type="image/png">
+
+                    <img src="assets/asbyssion_png_500.png" alt="Villano: Abyssion" class="w-full h-auto rounded-lg shadow-md">
+                </picture>
+          </div>
+        </div>
+
+        <!-- Historia -->
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 md:pr-8 mb-8 md:mb-0">
+            <h2 class="text-3xl font-bold mb-4">Historia del juego</h2>
+            <p class="text-gray-600">Pulgaria, un diminuto pero próspero planeta cubierto de musgo estelar y energía luminosa, es el hogar de una civilización de pulgas inteligentes que han prosperado gracias a la luz pura de su mundo. Sin embargo, su paz se ve amenazada cuando Abyssion, un colosal pez linterna del abismo espacial, aparece en el cielo. Atraído por la energía del planeta, utiliza su hipnótica bioluminiscencia para atrapar a los habitantes de Pulgaria y absorber su fuente de vida. Pero su agresividad no es natural: un misterioso cristal oscuro ha corrompido su esencia, convirtiéndolo en una criatura hambrienta de poder.</p>
+            <p class="text-gray-600">Ante la inminente destrucción de su hogar, Lumi, una joven pulga astronauta, decide enfrentarse al peligro. Con su traje espacial y su propulsor a chorro, se embarca en un viaje por las profundidades del océano cósmico, explorando biomas hostiles y esquivando las sombras que acechan en la oscuridad. Su misión: recolectar fragmentos de luz pura y liberar a Abyssion de su corrupción antes de que Pulgaria sea consumida para siempre. ¿Podrá devolver la luz al cosmos o será engullida por la oscuridad?</p>
+          </div>
+          <div class="md:w-1/2">
+              <picture>
+                  <source srcset="assets/escenario_webp_1080.webp" media="(min-width: 1024px)" type="image/webp">
+                  <source srcset="assets/escenario_webp_720.webp" media="(min-width: 768px)" type="image/webp">
+                  <source srcset="assets/escenario_webp_720_recortada.webp" media="(max-width: 767px)" type="image/webp">
+
+                  <source srcset="assets/escenario_png_1080.png" media="(min-width: 1024px)" type="image/png">
+                  <source srcset="assets/escenario_png_720.png" media="(min-width: 768px)" type="image/png">
+                  <source srcset="assets/escenario_png_720_recortada.png" media="(max-width: 767px)" type="image/png">
+
+                  <img src="assets/escenario_png_500.png" alt="" class="w-full h-auto rounded-lg shadow-md">
+              </picture>
+          </div>
+        </div>
+
+          <!-- Tráiler del juego -->
+          <div class="container mx-auto px-4 py-8">
+              <h2 class="text-3xl font-bold mb-4 text-center">Tráiler Oficial</h2>
+              <div class="flex justify-center">
+                  <video controls class="w-full md:w-3/4 lg:w-1/2 rounded-lg shadow-md">
+                      <source src="assets/Trailter_AstroFlea.webm" type="video/webm">
+                      <source src="assets/Trailter_AstroFlea.mp4" type="video/mp4">
+                      Tu navegador no soporta la reproducción de video.
+                  </video>
+              </div>
+          </div>
+
+      </div>
+
+    </main>
   </body>
 </html>
